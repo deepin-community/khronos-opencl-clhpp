@@ -1,0 +1,86 @@
+khronos-opencl-clhpp (3.0~2.0.15-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add superficial autopkgtest trying to compile the headers.
+  * Add dependency on opencl-c-headers.
+  * Bump Standards-Version to 4.6.0 (no changes needed).
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 24 Aug 2021 01:17:49 +0200
+
+khronos-opencl-clhpp (3.0~2.0.13-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.5.1 (no changes needed).
+
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 07 Jan 2021 14:50:18 +0100
+
+khronos-opencl-clhpp (2.2.0~~2.0.12+git7-g64c206f-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+    - CL/cl.hpp is gone
+    - CL/cl2.hpp is now CL/opencl.hpp
+  * Refresh patches.
+  * Update Lintian overrides.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 16 Nov 2020 00:37:35 +0100
+
+khronos-opencl-clhpp (2.2.0~~2.0.11+git9-g0192662-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Khronos relicensed the headers under Apache-2.0.
+  * Relicense the packaging under Apache-2.0, too.
+  * Add 'khronos' and 'tarball' targets to simplify snapshot generation.
+  * Switch to debhelper-compat (= 13).
+  * Bump Standards-Version to 4.5.0 (no changes needed).
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 13 May 2020 11:44:02 +0200
+
+khronos-opencl-clhpp (2.1.0~~git51-gc5063c3-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * The headers are no longer automatically generated during build.
+  * Test header generation with python3.  (Closes: #936791)
+  * Bump Standards-Version to 4.4.0 (no changes needed).
+  * Update Lintian overrides.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 23 Sep 2019 16:42:05 +0200
+
+khronos-opencl-clhpp (2.0.10+git26-g806646c-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Switch to debhelper-compat (= 12).
+  * Bump Standards-Version to 4.3.0 (no changes needed).
+  * The MIT license we use is actually the Expat variant.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 04 Feb 2019 15:37:04 +0100
+
+khronos-opencl-clhpp (2.0.10+git23-gf0b7045-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Switch to debhelper-compat (= 11).
+  * Bump Standards-Version to 4.2.1 (no changes needed).
+  * Add debian/upstream/metadata.
+  * Update Lintian overrides.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 10 Dec 2018 20:34:01 +0100
+
+khronos-opencl-clhpp (2.0.10+git12-g5dd8bb9-1) unstable; urgency=medium
+
+  * New upstream snapshot.  (Closes: #853474)
+  * debian/mksnapshot.sh: New script to generate upstream snapshot tarballs.
+  * Set Priority to optional.
+  * Bump Standards-Version to 4.1.3.
+  * Switch to debhelper compat level 11.
+  * Set Rules-Requires-Root: no.
+  * Add myself to Uploaders.
+  * Switch Vcs-* URLs to salsa.debian.org.
+  * Deduplicate *.js in the documentation.
+  * hardening.patch: New, append to CMAKE_CXX_FLAGS, do not overwrite.
+
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 25 Jan 2018 02:39:34 +0100
+
+khronos-opencl-clhpp (2.0.10-1) unstable; urgency=medium
+
+  * Initial release (Closes: #837112)
+
+ -- Vincent Danjean <vdanjean@debian.org>  Thu, 08 Sep 2016 21:38:17 +0200

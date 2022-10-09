@@ -1,0 +1,10 @@
+Document: opencl-clhpp-headers
+Title: OpenCL C++ Bindings Documentation
+Author: The Khronos Group Inc.
+Abstract: This manual describes the OpenCL C++ Bindings
+ as provided by The Khronos Group Inc.
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/opencl-clhpp-headers/html/index.html
+Files: /usr/share/doc/opencl-clhpp-headers/html/*.html
